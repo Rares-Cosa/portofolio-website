@@ -47,19 +47,19 @@ const Navbar = () => {
 
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2A8263] rounded-lg'>
-            <a href='/' className='flex justify-between items-center w-full text-[#4C9DDC] font-semibold'>
+            <a href='https://www.linkedin.com/in/cosa-andrei-rares-953553161' target='_blank' className='flex justify-between items-center w-full text-[#4C9DDC] font-semibold' rel="noreferrer">
               Linkedin <img src={Linkedin} alt="Linkedin" className='w-[50px] ml-[26px]' />
             </a>
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2A8263] rounded-lg'>
-            <a href='/' className='flex justify-between items-center w-full text-[#252628] font-semibold'>
+            <a href='https://github.com/Rares-Cosa' target='_blank' className='flex justify-between items-center w-full text-[#252628] font-semibold' rel="noreferrer">
               Github <img src={Github} alt="Github" className='w-[50px] ml-[39px]' />
             </a>
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2A8263] rounded-lg'>
-            <a href='/' className='flex justify-between items-center w-full text-[#CAC9D0] font-semibold'>
+            <a href='mailto: rares.cosa@gmail.com' className='flex justify-between items-center w-full text-[#CAC9D0] font-semibold'>
               Mail <img src={Mail} alt="Mai;" className='w-[50px] ml-[58px]' />
             </a>
           </li>
