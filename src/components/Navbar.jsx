@@ -65,7 +65,7 @@ const Navbar = () => {
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2A8263] rounded-lg'>
-            <a href='/' className='flex justify-between items-center w-full text-[#6CC7F2] font-semibold'>
+            <a href='/Resume.pdf' download={true} className='flex justify-between items-center w-full text-[#6CC7F2] font-semibold'>
               Resume <img src={Resume} alt="Resume" className='w-[50px] ml-[28px]' />
             </a>
           </li>
