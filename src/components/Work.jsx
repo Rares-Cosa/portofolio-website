@@ -1,11 +1,10 @@
 import React from 'react'
 
-import WorkImg from '../assets/workImg.jpeg'
 import PortofolioImg from '../assets/portofolioImg.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-[#2A8263] bg-[#FAD5A5]'>
+    <div name='work' className='w-full h-screen text-[#2A8263] bg-[#FAD5A5]'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
